@@ -4,7 +4,6 @@
 
 body {
   font-family: "Fredoka", sans-serif;
-  /* background-color: var(--bluegrey); */
   background-image: url(../img/514522-widescreen-black-and-gray-backgrounds-1920x1080-for-phone.jpg);
   background-size: cover;
 }
@@ -33,6 +32,8 @@ body {
 
 .tasto-calcolo {
   border-radius: 15px;
-  width: 75%;
-  margin-left: 40px;
+  width: 70%;
+  margin-left: 45px;
+  background-color: var(--bluegrey);
+  color: white;
 }
