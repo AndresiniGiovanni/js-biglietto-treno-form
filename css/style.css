@@ -4,13 +4,20 @@
 
 body {
   font-family: "Fredoka", sans-serif;
-  background-color: var(--bluegrey);
+  /* background-color: var(--bluegrey); */
+  background-image: url(../img/514522-widescreen-black-and-gray-backgrounds-1920x1080-for-phone.jpg);
+  background-size: cover;
+}
+.titolo{
+  font-size: 46px;
 }
 .big-font {
   font-size: 21px;
 }
-
-.price-font{
+.centering{
+  margin-top: 10%;
+}
+.price-font {
   font-size: 42px;
 }
 
@@ -24,7 +31,7 @@ body {
   font-size: 35px;
 }
 
-.tasto-calcolo{
+.tasto-calcolo {
   border-radius: 15px;
   width: 75%;
   margin-left: 40px;
