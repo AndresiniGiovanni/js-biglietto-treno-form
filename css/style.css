@@ -7,14 +7,17 @@ body {
   background-color: var(--bluegrey);
 }
 .big-font {
-  font-size: 22px;
+  font-size: 21px;
+}
+
+.price-font{
+  font-size: 42px;
 }
 
 .my-container {
-  width: 50%;
-  height: 150px;
+  width: 30%;
   position: relative;
-  left: 15%;
+  left: 43%;
 }
 
 .costo {
@@ -23,6 +26,6 @@ body {
 
 .tasto-calcolo{
   border-radius: 15px;
-  width: 85%;
-  margin-left: 20px;
+  width: 75%;
+  margin-left: 40px;
 }

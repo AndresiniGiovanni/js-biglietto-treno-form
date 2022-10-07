@@ -15,6 +15,13 @@ button.addEventListener("click", function () {
   console.log(eta);
   console.log(costoKm);
 
+  // IS NaN UTILIZZO NUMERI  
+  if(isNaN(km) || isNaN(eta)) {
+    alert('Attenzione! Si possono inserire soltanto numeri.');
+    window.location.reload();
+  }
+
+// SCONTI 
   if (eta < 18) {
     percentuale = parseFloat(costoKm * 0.8).toFixed(2);
 
@@ -29,5 +36,5 @@ button.addEventListener("click", function () {
     console.log(percentuale);
   }
 
-  document.getElementById("prezzo").innerHTML = percentuale;
+  document.getElementById("prezzo").innerHTML = percentuale + "&euro;";
 });
