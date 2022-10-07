@@ -1,0 +1,28 @@
+:root {
+  --bluegrey: #181f29;
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+  background-color: var(--bluegrey);
+}
+.big-font {
+  font-size: 22px;
+}
+
+.my-container {
+  width: 50%;
+  height: 150px;
+  position: relative;
+  left: 15%;
+}
+
+.costo {
+  font-size: 35px;
+}
+
+.tasto-calcolo{
+  border-radius: 15px;
+  width: 85%;
+  margin-left: 20px;
+}
